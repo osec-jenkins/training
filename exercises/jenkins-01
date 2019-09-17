@@ -1,0 +1,10 @@
+create parameterized job that prints "Hello <parameter>"
+install the following plugins:
+- show build parameters
+- job configuration history
+- rebuilder
+- timestamper
+add timestamps to logs
+allow to rebuild job with previously used parameter value however without possibility to modify its value
+create https://github.com/ account
+question: where does Jenkins store job configuration history?
