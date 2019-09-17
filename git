@@ -1,0 +1,9 @@
+git init
+git add .
+git commit -m '<commit message>'
+git push
+git pull
+git checkout -b new-branch-name
+git checkout branch name
+
+https://github.com/jonas/tig - text-mode interface for Git

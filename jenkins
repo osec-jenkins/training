@@ -1,0 +1,5 @@
+java -jar jenkins.war
+java -D<property>=<value>  -jar jenkins.war
+java -DJENKINS_HOME=/path/to/jenkins/home -jar jenkins.war
+
+https://wiki.jenkins.io/display/JENKINS/Features+controlled+by+system+properties - Jenkins Core properties
