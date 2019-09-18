@@ -1,0 +1,2 @@
+make the job created in the first step of jenkins-02 exercise poll GitHub repository for changes every 2 minutes
+make that job execute maven clean and verify goals

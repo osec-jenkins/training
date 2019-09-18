@@ -1,0 +1,12 @@
+generate sample Spring Boot project using https://start.spring.io/
+create private GitHub repository and push there code generated in previous step
+create job that pulls code from GitHub repository and prints git commit SHA (use environment variable found at https://wiki.jenkins.io/display/JENKINS/Git+Plugin)
+create downstream job that fails randomly (you can use the following script: exit `shuf -i 0-1 -n 1`)
+create further downstream job that prints parameter value passed from it's upstream job
+create view that shows only jobs created in this exercise (tip: create naming convention)
+create delivery pipeline view that starts from the first job created in this exercise
+question: what happens when we limit number of Jenkins executors to 1 and trigger the pipeline several times?
+question: what happens if we set quiet period to 0?
+start discarding builds for the first job created in this exercise if their number grows to more than 3
+question: how does that change affect content of JENKINS_HOME/jobs directory?
+make the last job created in this exercise print git commit SHA and git branch name passed from the first job instead of what it prints now

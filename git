@@ -3,7 +3,12 @@ git add .
 git commit -m '<commit message>'
 git push
 git pull
-git checkout -b new-branch-name
-git checkout branch name
+git log
+git checkout -b <new-branch-name>
+git checkout <branch-name>
+git tag <tag-name>
 
+links:
+https://github.com/
+https://stackoverflow.com/questions/8588768/how-do-i-avoid-the-specification-of-the-username-and-password-at-every-git-push
 https://github.com/jonas/tig - text-mode interface for Git
