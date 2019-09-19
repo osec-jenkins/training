@@ -5,3 +5,4 @@ java -DJENKINS_HOME=/path/to/jenkins/home -jar jenkins.war
 links:
 https://jenkins.io/security/advisories/
 https://wiki.jenkins.io/display/JENKINS/Features+controlled+by+system+properties
+https://wiki.jenkins.io/display/JENKINS/Jenkins+Script+Console
