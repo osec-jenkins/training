@@ -1,0 +1,13 @@
+clone git project from https://github.com/osec-jenkins/demoapp repository
+build the project using maven
+create new GitHub repository and push that project into created repository
+create Jenkins job that polls this repository every 2 minutes and build the project using maven
+change `private final` to `final private` in src/main/java/com/example/demoapp/ApplicationController.java and push that change to GitHub repository
+let's assume that the above change is accepted convention in our project and make the job pass
+publish junit test report as part of Jenkins job
+install violations and jacoco plugins
+publish jacoco coverage report as part of Jenkins job
+publish checkstyle violations as part of Jenkins job
+uncomment git-commit-id-plugin in pom.xml and push that change
+check classes/git.properties file conent in job workspace
+question: what does the conten of that file represents?
