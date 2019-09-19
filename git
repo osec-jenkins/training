@@ -1,10 +1,12 @@
 git clone <repository-url>
 git init
 git add .
+git status
 git commit -m '<commit message>'
 git push
 git pull
 git log
+git show <commit-sha>
 git checkout -b <new-branch-name>
 git checkout <branch-name>
 git tag <tag-name>
