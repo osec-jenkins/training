@@ -1,0 +1,5 @@
+https://code.visualstudio.com/
+
+plugins:
+- Jenkins Pipeline Linter Connector
+- JenkinsFile Support
