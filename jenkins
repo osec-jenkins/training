@@ -6,3 +6,7 @@ links:
 https://jenkins.io/security/advisories/
 https://wiki.jenkins.io/display/JENKINS/Features+controlled+by+system+properties
 https://wiki.jenkins.io/display/JENKINS/Jenkins+Script+Console
+https://jenkins.io/doc/pipeline/steps/
+https://github.com/jenkinsci/pipeline-plugin/blob/master/COMPATIBILITY.md
+https://jenkins.io/doc/book/pipeline/syntax/
+https://jenkins.io/doc/pipeline/examples/

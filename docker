@@ -1,3 +1,7 @@
+docker run -p <local_port>:8080 --name MyJenkins -v <local_directory>:/var/jenkins_home jenkins/jenkins
+
+docker build -t <TAG> .
+
 links:
 https://hub.docker.com/
 https://developer.fedoraproject.org/tools/docker/docker-installation.html
