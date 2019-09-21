@@ -2,6 +2,16 @@ java -jar jenkins.war
 java -D<property>=<value>  -jar jenkins.war
 java -DJENKINS_HOME=/path/to/jenkins/home -jar jenkins.war
 
+plugins:
+Blue Ocean
+Delivery Pipeline
+Job Configuration History
+Pipeline Configuration History
+Pipeline Timeline
+Rebuilder
+Show Build Parameters
+Timestamper
+
 links:
 https://jenkins.io/security/advisories/
 https://wiki.jenkins.io/display/JENKINS/Features+controlled+by+system+properties
@@ -9,4 +19,4 @@ https://wiki.jenkins.io/display/JENKINS/Jenkins+Script+Console
 https://jenkins.io/doc/pipeline/steps/
 https://github.com/jenkinsci/pipeline-plugin/blob/master/COMPATIBILITY.md
 https://jenkins.io/doc/book/pipeline/syntax/
-https://jenkins.io/doc/pipeline/examples/
+https://jenkins.io/doc/book/pipeline/
