@@ -1,0 +1,10 @@
+install pipeline config history plugin
+create pipeline job that builds your maven project
+move pipeline definition to Jenkinsfile
+use committed Jenkinsfile as pipeline definition
+poll git repository for changes every 2 minutes
+publish junit test report
+add another stage to you pipeline that builds another Jenkins job
+add new stage that prints git commit SHA
+question: where does Jenkins store pipeline config history?
+question: given that you have access to repository containing Jenkinsfile, in what situations is the pipeline config history plugin useful?
