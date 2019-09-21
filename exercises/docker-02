@@ -1,0 +1,3 @@
+use openjdk 8 jdk alpine image instead of plain java image by modifying Dockerfile (image can be found at https://hub.docker.com/)
+question: how does that affect image size?
+make this change permanent by modifying pom.xml

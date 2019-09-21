@@ -1,0 +1,6 @@
+question: if you were to create Dockerfile for maven project used in jenkins-04 exercise, how would it look like?
+run maven clean, package and docker:build goals in a single maven command
+question: the above step created a Dockerfile, do you know where?
+question: how much the created Dockerfile differs from what you expected?
+build image from the created Dockerfile
+run created Docker image
